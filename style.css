@@ -1,0 +1,61 @@
+  
+  body{
+    background-color: lightblue;
+    text-align: center;
+    height: 100vh;
+    
+  }
+
+  .heading
+  {
+    width: 98%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+    font-size: 38px;
+    font-family: 'Unbounded', cursive;
+    padding-top: 18px;
+    border-radius: 0 0 20px 20px;
+  
+  }
+  .headingDiv
+  {
+    background: white ; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px grey;
+    float: none;
+    margin-top: 50px;
+    padding: 20px;
+  }
+  .headingDiv2
+  {
+    font-size: 18px ;
+  }
+  .resultToTag
+  {
+    
+    box-shadow:5px 5px 5px grey;
+    font-size: 35 px;
+  }
+
+  .copyRightFooter{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color:#337AB7;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Unbounded', cursive;
+    margin-top: 20px;
+  }
+
+  canvas{
+    border: 5px solid gray;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+ 
