@@ -1,8 +1,8 @@
 function setup() {
   canvas = createCanvas(350, 350);
   video = createCapture(VIDEO);
-  
-  calssifier = ml5.imageClassifier('MobileNet',modelLoaded)
+  video.hide()
+  classifier = ml5.imageClassifier('MobileNet',modelLoaded)
 }
 
 function modelLoaded(){
@@ -11,7 +11,7 @@ function modelLoaded(){
 
 function draw(){
   image(video,0,0, 350,350)
-  cassifier.classify(video, gotResult)
+  classifier.classify(video, gotResult)
 }
 
 var resultadoanterior = ""
